@@ -282,7 +282,7 @@ public class CentralPacientes {
         Paciente actual = primero;
 
         if (actual != null) {
-            if (actual.darSexo() == 1) {
+            if (actual.darSexo() == 2) {
                 mujeres++;
             }
             while (actual.darSiguiente() != null) {
